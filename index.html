@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-keyboard"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Michael Trinh</h1>
+								<p> Welcome to my Professional Portfolio.</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#skills">Skills</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Skills -->
+							<article id="skills">
+								<h1 class="major">Skills</h1> 
+								<h2> Programming Skills: </h2>
+								<ul>
+									<li><b>Languages: </b>C++, C#, Python, HTML, CSS, Assembly </li>
+									<li><b>Frameworks: </b>Node.js, React.js, Angular.js</li>
+									<li><b>Developer Tools: </b>VS Code, Docker</li>
+									<li>Front end and Back end experience.</li>
+								</ul>
+								
+								<h2>Cyber Security & IT Skills: </h2>
+								<ul>
+									<li><b>Developer Tools: </b>Wireshark, GNS3, Snort, Unifi, Traefik, Pi-Hole, Duck DNS, Docker, Proxmox, VMware, ESXI, XCP-ng</li>
+									<p></p>
+									<li><b>Security: </b>Offering confidentiality, integrity, and availability by protecting and securing networks and end-systems</li>
+									<li style="margin-left: 20px;">Configuring and creating firewall rules, port management</li>
+									<li style="margin-left: 20px;">Deploying and securing virtual machines using Chef</li>
+									<p></p>
+
+									<li><b>Information Technology: </b>Configuring, troubleshooing, managing, and repairing networks systems, end systems, peripherals, and more.</li>
+									<li style="margin-left: 20px;">WAN, LAN, and SAN configuring, maintenance. </li>
+									<li style="margin-left: 20px;">Deploying and managing Virtual Machines and services using tools such as VMware, ESXI, Docker</li>
+								</ul>
+								
+							</article>
+ 
+						<!-- Projects -->
+							<article id="work">
+								<h1 class="major">Work</h1>
+
+							<!-- CowSpec-->
+								<h2> <a href="https://github.com/RyanLuong1/Cow-Specs/">CowSpec Git link: </a> </h2>
+								<span class="image main"><img src="images/cowspec.jpg" alt="" /></span>
+								<p>
+									Helped create a cross-platform hardware monitoring program that reads PC system sensors such as: voltages, temperatures, utilizations, clock speeds, drive information, etc. 
+									Program is purely built on python utilizing QT for GUI, PSUtill and GPUtill libraries.
+									I wrote the logic finding GPU clock speeds, voltages, utilizations, and temperatures. Additionally, same as with all the memory modules, hard drive, and network information.
+								</p>
+
+							<!-- Hungry Helpers-->
+								<h2> <a href="https://github.com/Midknightsnack/Hungry_Helpers">Hungry Helpers Git link:</a> </h2>
+								<span class="image main"><img src="images/hungryhelpers.jpg" alt="" /></span>
+								<p>
+									Worked on a web application that allows users to plan their meals. Has a calendar to help users plan their meals and offer a database of food recipes. 
+									Additionally, the calendar can give you daily timed reminders when it’s time to eat.
+									I created the web UI written in HTML and CSS. I also create the sign-in and registration page with database using Mangodb.				
+								</p>
+
+							<!-- cow-tic-tac-toe-->
+								<h2> <a href="https://github.com/maikhol/tik-tac-toe">Cow Tic-Tac-Toe Git link: </a> </h2>
+								<span class="image main"><img src="images/cowtictactoe.jpg" alt="" /></span>
+								<p>
+									Created a light-weight cross-platform game completely written in C++ with C++ Builder with a simple and easy to use GUI.
+								</p>
+
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About Me</h2>
+								<img src="images/aboutme.jpg" width="320" alt="" style="float: left; margin-right: 15px; margin-bottom: 5px; "/>
+								<p>
+									My name is Michael Trinh. I am a junior at Cal State Fullerton in the Computer Science Program minoring in Cyber Security. 
+									I am currently a member of the CSUF OSS (<a href="https://www.osscsuf.org/">Offensive Security Society</a>) 
+									where I had the opportunity to participate in the 2020 <a href="https://wrccdc.org/">WRCCD</a> Competition with the OSS Blue team where we were placed in the top 5. 
+								</p>
+								<p>
+									I fell in love with computers at the age of 10. I’ve teared down and fixed anything I can get my hands on: 
+                                    from computers, servers, and even circuit boards. From there, I started building custom high-end computer, servers, and networks together for fun; which
+									lead me to really finding my passion in networking.
+                                    I build my own rack-mounted homelab where I logged over 200 hours spent on configuring networks to exploit vulnerabilities and to learn how to secure it better.
+                                    Addition to that, I hosted various services such as: NextCloud, DNS server, and SSL server to name a few.
+								</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h1 class="major">Contact</h1>
+								<!--<form method="post" action="#">-->
+								<form action="POST" data-netlify="true">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+											<p><div data-netlify-recaptcha="true"> </div></p>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								
+								<ul class="icons">
+									<li><a href="https://linkedin.com/in/michaeltrinh-cs/" class="icon brands fa-linkedin-in"><span class="label">linkedin</span></a></li>
+									<li><a href="https://github.com/maikhol/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									 -->
+								</ul>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						 <p class="copyright">&copy; Michael Trinh</p> 
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
